@@ -1,0 +1,265 @@
+/* ============= Hero Section ============= */
+.hero-section {
+  height: 716px;
+  background-image: url("./img/home-bg.png");
+
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 60px;
+}
+
+.hero-text-con {
+  background-color: var(--third-color);
+  width: 643px;
+  padding: 40px;
+  border-radius: 10px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  gap: 50px;
+}
+
+.hero-text-con h1 {
+  font-size: var(--big-title-size);
+  font-weight: 700;
+  line-height: 110%;
+  color: var(--primary-color);
+}
+
+.hero-text-con p {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: auto;
+}
+
+.buy-btn {
+  padding: 25px 72px;
+  background-color: var(--primary-color);
+  color: var(--white-color);
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+/* ============= Browse Section =============*/
+.browse-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 60px;
+}
+
+.browse-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.browse-text h3 {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.browse-text p {
+  font-size: 20px;
+  font-weight: 500;
+  color: var(--gray-color);
+}
+
+.browse-img-con {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+.browse-img-con img {
+  width: 100%;
+}
+
+.browse-img-con div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.browse-img-con h6 {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+/* ============= Product Section ============= */
+.product-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.product-cards-con {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.product-card {
+  flex: 1;
+  flex-basis: 285px;
+}
+
+/* ---- Show More Button ---- */
+.show-more-btn {
+  padding: 12px 74px;
+  background-color: none;
+  border: 1px solid var(--primary-color);
+  color: var(--primary-color);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 150%;
+  cursor: pointer;
+}
+
+/* ============= Beautifu Room Section ============= */
+.beautiful-room-section {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  background-color: #fcf8f3;
+}
+
+/* ---- Left Text ---- */
+.left-con {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.left-con .text-con p {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 150%;
+  color: var(--gray-color);
+}
+
+.left-con .explore-more-btn {
+  padding: 12px 36px;
+  background-color: var(--primary-color);
+  color: var(--white-color);
+  font-size: 16px;
+  font-weight: 600;
+}
+
+/* ---- Right Images ---- */
+.right-con {
+  display: flex;
+  gap: 30px;
+}
+
+/* -- First Image -- */
+.beautiful-img-con {
+  position: relative;
+  background-color: #000000;
+}
+
+.beautiful-content {
+  position: absolute;
+  bottom: 30px;
+  left: 30px;
+
+  display: flex;
+  align-items: flex-end;
+}
+
+.beautiful-content .text-con {
+  padding: 32px;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.beautiful-content .text-con .info {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+.beautiful-content .text-con h4 {
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.beautiful-content .arrow {
+  padding: 20px;
+  background-color: var(--primary-color);
+}
+
+/* -- Slider Image -- */
+.slider {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.slider .img-con {
+  max-width: 350px;
+  display: flex;
+  gap: 20px;
+
+  position: relative;
+}
+
+.img-con .slider-arrow {
+  position: absolute;
+  left: 100%;
+  top: 50%;
+
+  background-color: var(--white-color);
+  border-radius: 50%;
+  box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.16);
+  cursor: pointer;
+
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* - Slider Dot Bar - */
+.slider .slider-nav {
+  display: flex;
+  gap: 20px;
+}
+
+/*?  Simple One */
+.slider-nav input[type="radio"] {
+  width: 20px;
+  height: 20px;
+  accent-color: var(--primary-color);
+}
+
+/* .slider-nav input[type="radio"]:checked {
+  accent-color: #42ec0f;
+} */
+
+/* .slider-nav input[type="radio"] {
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  background-clip: content-box;
+  background-color: var(--gray-color);
+  border: 1px solid rgba(184, 143, 47, 0);
+
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+} */
+
+/* .slider-nav input[type="radio"]:checked {
+  background-color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  padding: 4px;
+} */

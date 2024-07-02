@@ -1,0 +1,12 @@
+/* ============= Product Section ============= */
+.product-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.product-cards-con {
+  display: grid;
+  gap: 30px;
+}
